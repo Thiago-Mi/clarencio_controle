@@ -308,8 +308,8 @@ def main():
     
     # Parâmetros de saturação
     st.sidebar.header("Parâmetros de Saturação")
-    u_min = st.sidebar.number_input("Limite Mínimo do Controle", -100.0, 0.0, -10.0)
-    u_max = st.sidebar.number_input("Limite Máximo do Controle", 0.0, 100.0, 10.0)
+    u_min = st.sidebar.number_input("Limite Mínimo do Controle", -100.0, 100.0, 10.0)
+    u_max = st.sidebar.number_input("Limite Máximo do Controle", -100.0, 100.0, 10.0)
     
     # Tempo de amostragem apenas para visualização
     Ts = st.sidebar.number_input("Tempo de Amostragem (s)", 0.001, 1.0, 0.05)
