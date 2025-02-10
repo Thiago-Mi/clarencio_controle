@@ -303,8 +303,8 @@ def main():
     
     # Entrada da função de transferência
     st.sidebar.header("Função de Transferência G(z)")
-    num = st.sidebar.text_input("Numerador em z (ex: 1 0.5)", "1")
-    den = st.sidebar.text_input("Denominador em z (ex: 1 -1.5 0.5)", "1 0.8 0.15")
+    num = st.sidebar.text_input("Numerador em z (ex: 1 0.5)", "0.00128 0.004468 0.001022")
+    den = st.sidebar.text_input("Denominador em z (ex: 1 -1.5 0.5)", "1 -2.192 1.881 -0.6382")
     
     # Parâmetros de saturação
     st.sidebar.header("Parâmetros de Saturação")
