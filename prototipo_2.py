@@ -182,7 +182,7 @@ def plot_response(sys, title):
     t, y = control.step_response(sys)
     plt.plot(t, y)
     plt.title(title)
-    plt.xlabel('Tempo (s)')
+    plt.xlabel('Tempo (ms)')
     plt.ylabel('Amplitude')
     plt.grid(True)
     return plt
@@ -224,7 +224,7 @@ def compare_responses(G, T, title="Comparação das Respostas"):
     plt.plot(t_ctrl, y_ctrl, 'b-', label='Sistema Controlado')
     
     plt.title(title)
-    plt.xlabel('Tempo (s)')
+    plt.xlabel('Tempo (ms)')
     plt.ylabel('Amplitude')
     plt.grid(True)
     plt.legend()
