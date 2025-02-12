@@ -3,3 +3,6 @@ control
 numpy
 matplotlib
 scipy
+pandas
+json
+functools
